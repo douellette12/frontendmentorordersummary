@@ -1,0 +1,100 @@
+.desktop-bg {
+    background: url(./images/pattern-background-desktop.svg);
+    height: 100%;
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ordersummary{
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    margin-top: 1em;
+    font-size: 25px;
+    color: hsl(223, 47%, 23%)
+}
+
+p{
+    margin: 0 auto!important;
+}
+
+.card {
+    border-radius: 15px!important;
+    margin-top: 5em;
+}
+
+.card-img-top{
+    border-top-left-radius: 15px!important;
+    border-top-right-radius: 15px!important;
+}
+
+.text{
+    font-size: 16px;
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    margin-top: 1.2em;
+    color: hsl(224, 23%, 55%)
+}
+
+.plantext{
+    color: hsl(223, 47%, 23%);
+    font-family: "Red Hat Display";
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.cost-text{
+    color:hsl(224, 23%, 55%);
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.change-a{
+    color: hsl(245, 75%, 52%);
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    
+}
+.change-a:hover{
+    color: hsl(245, 75%, 52%);
+}
+
+.change-a:active{
+    text-decoration: none!important;
+    color: hsl(224, 23%, 55%)!important
+}
+
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    justify-content: space-around;
+}
+
+div .plan a{
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.payment-button{
+    background-color: hsl(245, 75%, 52%)!important;
+    color: white!important;
+    font-family: "Red Hat Display"!important;
+    font-size: 16px!important;
+    box-shadow: 30px 30px!important;
+}
+.payment-button:active{
+    background-color: hsl(224, 23%, 55%)!important;
+}
+
+.cancelbtn{
+    font-family: "Red Hat Display"!important;
+    font-size: 16px!important;
+    text-decoration: none!important;
+    color: hsl(224, 23%, 55%)!important;
+}
